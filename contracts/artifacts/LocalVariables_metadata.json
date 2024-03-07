@@ -7,30 +7,155 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "local",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "FirstFour",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MyBlockHash",
 				"outputs": [
 					{
 						"internalType": "address",
 						"name": "",
 						"type": "address"
-					},
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callData",
+				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes",
 						"name": "",
-						"type": "uint256"
-					},
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "difficulty",
+				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "myNumber",
+				"name": "gaslimit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "gasprice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nowOn",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "origin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timeStamp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -55,7 +180,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/05LocalVariables.sol": "LocalVariables"
+			"contracts/06GlobalVariables.sol": "LocalVariables"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -69,12 +194,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/05LocalVariables.sol": {
-			"keccak256": "0xb79876ce2987310327934ca095728bbe0fe248ec19d3e5412ebbed8a530e51d7",
+		"contracts/06GlobalVariables.sol": {
+			"keccak256": "0xec7f6e5de7d538875642b9e387ef110a4e45a49c1d36da8db094095b325a920d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1bf2c2fc0567473e75fc2d4c7bd30bc618e8020bde659abca7d93ee4d739a2e7",
-				"dweb:/ipfs/QmXfkACat3AzHHsEdrw6XPz4iaU86iHV8C79bydj4uFcEw"
+				"bzz-raw://ae003530d9cfa12945c111e799bd4fb7d016d5dde28b2cf06683c041901603cd",
+				"dweb:/ipfs/QmZ2hnUKahHKixTv6Pv245rb7XXd7dACnivCcpzFUbsaxa"
 			]
 		}
 	},
