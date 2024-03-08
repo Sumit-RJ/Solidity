@@ -153,7 +153,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/EventTicketSmartContract.sol": "EventTicket"
+			"contracts/09EventTicketSmartContract.sol": "EventTicket"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -167,7 +167,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/EventTicketSmartContract.sol": {
+		"contracts/09EventTicketSmartContract.sol": {
 			"keccak256": "0xc84ff49b248b04dec2cd1614a5ce3054fde21fba752e24eb0f1b98643c282cf6",
 			"license": "MIT",
 			"urls": [
