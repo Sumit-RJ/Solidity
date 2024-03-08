@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "WhileLoop",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "ss",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/12WhileLoop.sol": "WhileLoopDemo"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/12WhileLoop.sol": {
+			"keccak256": "0xa022985c26b014720e6782615475f7f25ede9dc6247cd43a5c8800758ab1b110",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4cd86416fd3cb19ea7c8df5240f102aeeaa38b16f720a2dc56e7f2c748ef60cc",
+				"dweb:/ipfs/QmX2sFw2deibm8MdHBunaQPExgPAkDtFcYL6pmY61w3MT2"
+			]
+		}
+	},
+	"version": 1
+}
