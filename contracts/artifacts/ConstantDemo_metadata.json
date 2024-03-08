@@ -17,19 +17,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getContact",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -60,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/10Constant.sol": {
-			"keccak256": "0xcf93dba765c81ba1a718186114027404b34d538efa1135b86383754215e03e8e",
+			"keccak256": "0xc725231c794de77229bf308b53b89698b6aae62b68beb937b16f60b1c28e013c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://509cf97f49bbcb7d8586c97445da3bface86f2c6670cdf68d78786dc2f97d0d5",
-				"dweb:/ipfs/QmcRTno28YxvVdywWWToD2W3wwPKGgrEsBbxPpJasY3QPG"
+				"bzz-raw://4acb993cf507bb6c2742d1496b18f682d449f26b4e4e6d048a8f7a021aeac9ce",
+				"dweb:/ipfs/QmfRRKL7DDPx5cJKtjBv6NNSFAkrUFkCPXsS7RsmHMHhdy"
 			]
 		}
 	},

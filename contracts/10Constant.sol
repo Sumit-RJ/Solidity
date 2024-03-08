@@ -18,9 +18,9 @@ contract ConstantDemo{
     //  ******execution cost : 45697 after deployment of smart contract
 
 
-    function getContact() public view returns(address){
-        return MY_ADDR; // execuction cost of state variable : 58309 gas
-        //return myAddress;  // execuction cost of state variable = 148525 gas
-    }
+    // function getContact() public view returns(address){
+    //     return MY_ADDR; // execuction cost of state variable : 58309 gas
+    //     //return myAddress;  // execuction cost of state variable = 148525 gas
+    // }
 
 }
